@@ -1,0 +1,67 @@
+.b3:hover,.panel-primary{
+
+    background-color: navy;
+    color: white;
+
+}
+.b1:hover,.panel-secondary{
+
+    background-color: olive;
+    color: white;
+
+}
+.b2:hover,.panel-error{
+
+    background-color: crimson;
+    color: white;
+
+}
+.primary-border
+{border: navy solid 2px;}
+
+.error-border
+{border: crimson solid 2px;}
+
+.secondary-border
+{border: olive solid 2px;}
+
+.container
+{
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 7px;
+    width: 40rem;
+}
+    .hd{
+        border-radius: 3px 3px 1px 1px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+.mg{margin-top: 20px;
+margin-bottom: 20px;}
+body{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+button-margin{
+
+    margin: 20px;
+}
+button{
+  
+    width: 100px;
+overflow: hidden ;
+text-overflow: ellipsis;
+white-space: nowrap;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.hd,.mg{
+
+width:1000px;
+}
+.hd,.content
+{padding-top: 10px;
+    height:40px;
+}
