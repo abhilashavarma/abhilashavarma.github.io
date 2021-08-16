@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Consulting</title>
+<meta charset="UTF-8">
+<style>
+    #nav_bar{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #nav_bar li{
+        display: inline;
+    }
+    .border_bottom {
+        border-bottom: 1px solid black;
+    }
+
+    .red {
+        color: red;
+    }
+    .no_border {
+        border: none;
+        margin-left: 0;
+        padding:0;
+    }
+    
+</style>
+</head>
+<body>
+<section>
+     <ul>
+         <a href="ex1.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Contact</a>
+        </ul>
+ </section>
+ <h1>Example Consultig pvt.ltd</h1> 
+<hr>
+<h2>Contact Us</h2>
+    <p>Phone No: <a href="tel:+12-2345-542">+12-2345-542</a><br>
+    Email Id:<a href="mailto:consultiin@email.com">Consultig@email.com</a> </p>   
+<h2>Drop a Message</h2>   
+        <p>Please drop us a message by filling the form and we will get back to you in 2 working days</p>
+        <p>Fields marked with <span class="red">*</span> are required</p>
+        <form>
+            <div>
+                <label for="name">Your Name<span class="red">*</span></label>
+                <br>
+                <input id="name" type="text" placeholder="John Doe" required/>
+            </div>
+            <br>
+            <div>
+                <label for="email">Your Email<span class="red">*</span></label>
+                <br>
+                <input id="email" type="email" placeholder="john.doe@example.com" required />
+            </div>
+            <br>
+            <div>
+                <label for="dropdown-1">What Are You Looking To Build?<span class="red">*</span></label>
+                <br>
+                <select name="dropdown-1" id="dropdown-1" required>
+                    <option value=" " selected="">-- Choose one --</option>
+                    <option value="blog">Blog</option>
+                    <option value="store">Store</option>
+                    <option value="game">Game</option>
+                    <option value="other">Other</option>
+                </select>
+                <div>
+                    <fieldset class="no_border">
+                        <legend>Platform you plan to support <span class="red">*</span></legend>
+                        <label><input type="checkbox" name="platform" value="web" checked="">Web</label>
+                        <label><input type="checkbox" name="platform" value="mobile">Mobile</label>
+                        <label><input type="checkbox" name="platform" value="desktop">Desktop</label>
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message</label><br>
+                    <br>
+                    <textarea name="message" id="msg" cols="40" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="reset"/>
+                    <input type="submit" value="Send message"/>
+                </div>
+                <br>
+            </div>
+<hr>
+&copy; Consulting.com
+</body>
+</html>
