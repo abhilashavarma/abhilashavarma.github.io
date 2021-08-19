@@ -1,0 +1,20 @@
+.common_width{
+    width: 90vw;
+    max-width: 1140px;
+}
+
+.align_center{
+    margin: auto;
+}
+
+h1:first-child {
+    margin-top: 100px;
+}
+
+.no_border {
+    border: none;
+    margin-left: 0;
+    padding:0;
+}
+
+

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contactus.css">
+
+</head>
+<body>
+    <header class="no_border common_width">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html"><img src="assets/logo.png" alt="logo"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main class="border_bottom common_width align_center">
+        <h1>Example Consulting Pvt. Ltd.</h1> 
+        <section>
+            <h2>Contact us</h2>
+            <div>
+                <p>Phone: <a href="tel:+122-169-145-7771">+122-169-145-7771</a></p>
+                <p>Email: <a href = "mailto: abc@xyz.com">abc@xyz.com</a></p>
+            </div>
+            
+        </section>
+
+        <section>
+            <h2>Drop a message</h2>
+            <p>Please drop us a message by filling out the following form, and we'll get back to you withing 2 working days'</p>
+            <p>Fields marked with <span class="red">*</span> are required</p>
+            <form>
+                <div>
+                    <label for="name">Your Name<span class="red">*</span></label>
+                    <br>
+                    <input id="name" type="text" placeholder="John Doe" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Your Email<span class="red">*</span></label>
+                    <br>
+                    <input id="email" type="email" placeholder="john.doe@example.com" required />
+                </div>
+                <br>
+                <div>
+                    <label for="dropdown-01">What Are You Looking To Build?<span class="red">*</span></label>
+                    <br>
+                    <select name="dropdown-01" id="dropdown-01" required>
+                        <option value=" " selected="">-- Choose one --</option>
+                        <option value="blog">Blog</option>
+                        <option value="store">Store</option>
+                        <option value="game">Game</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <fieldset class="no_border">
+                        <legend>Platform you plan to support <span class="red">*</span></legend>
+                        <label><input type="checkbox" name="platform" value="web" checked="">Web</label>
+                        <label><input type="checkbox" name="platform" value="mobile">Mobile</label>
+                        <label><input type="checkbox" name="platform" value="desktop">Desktop</label>
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message</label><br>
+                    <br>
+                    <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="reset"/>
+                    <input type="submit" value="Send message"/>
+                </div>
+                <br>
+            </form>
+        </section>
+    </main>
+    <footer class="footer common_width">
+        <p>&copy; example.com</p>
+    </footer>
+</body>
+</html>
