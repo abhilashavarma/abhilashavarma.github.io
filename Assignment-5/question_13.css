@@ -1,0 +1,103 @@
+
+nav,body,section,div, .flip-img{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      padding-top: 4rem;
+  }
+  .flip-img{
+    margin-right: 50px;
+  }
+  .nav-sec{
+      background-color: #2874F0;
+      padding-top: 8px;
+      height: 50px;
+  
+  }
+.fa-shopping-cart{
+    color: white;
+}
+button {
+overflow: hidden ;
+height:2rem;
+width:5rem;
+padding: 0;
+border: 0px;
+border-radius: 4px;
+font-size: 16px;
+font-family: sans-serif;
+
+}
+.more-btn{
+    color:white;
+}
+.search-box{
+    width: 508px;
+    height: 36px;
+  
+  
+}
+.login-btn{
+    border-radius:0;
+background-color: white;
+color:#2874F0;
+margin-left: 2rem;
+height: 35px;
+margin-left: 50px;
+
+}
+.more-btn,.cart-btn{
+    background-color: #2874F0;
+    margin-left: 50px;
+}
+
+.nav-sec{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #3E3E3E;
+}
+p{color: #3E3E3E;
+
+}
+nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.flipkart-services{
+    position: absolute;
+    background-color: teal;
+    left: 961px;
+    top: 58px;
+   display: none;
+}
+.more-btn:hover .flipkart-services{
+    display: block;
+    
+    
+    }
+    .flipkart-services a{  display: block;}
+    .flipkart-services {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 14px grey;
+}
+   
+    a{
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .more-btn:hover .flipkart-services {display: block;}
+
+.dropdown-icon{
+    margin: 0 10px 0 0;
+    color: rgb(40, 116, 240);
+}

@@ -1,0 +1,58 @@
+body{
+
+    font-family: sans-serif;
+    
+}
+h3{
+
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: .95;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 37px;
+}
+.flex-box a{
+    color: #0067b8;
+    text-decoration: none;
+   
+}
+.flex-box a,.flex-box p{
+    font-size: 15px;
+    font-weight: 540;
+ 
+
+}
+
+.flex-box{
+    border: solid 2px gray;
+    display: flex;
+ flex-wrap: wrap;
+}
+.microsoft-products{
+    margin:2rem 1.5%;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #0067b8;
+    
+}
+p{
+    width: 200px;
+}
+@media (min-width: 316px) {
+    .microsoft-products{
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 600px) {
+    .microsoft-products {
+        flex-basis: 31%;
+    }}
+    @media (min-width: 1020px) { .microsoft-products  {
+
+        flex-basis:10%;
+    }}
