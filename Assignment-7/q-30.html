@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q 30</title>
+    <style>
+        button,
+        span {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <input id="input1" type="number">
+        <select id="operator">
+            <option value="add" selected>+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input id="input2" type="number">
+        <button id="submit-btn" type="submit">Submit</button>
+        <span id="answer-span"></span>
+    </main>
+    <script>
+        const submitbtn = document.querySelector('#submit-btn');
+        const input1 = document.querySelector('#input1');
+        const input2 = document.querySelector('#input2');
+        const operator = document.querySelector('#operator');
+        const answerspan = document.querySelector('#answer-span');
+
+        function calculate() {
+            if (operator.value === 'add') {
+                let ans = +input1.value + +input2.value;
+                answerspan.innerText = input1.value + ' + ' + input2.value + ' is ' + ans;
+            }
+            if (operator.value === 'subtract') {
+                let ans = +input1.value - +input2.value;
+                answerspan.innerText = input1.value + ' - ' + input2.value + ' is ' + ans;
+            }
+            if (operator.value === 'multiply') {
+                let ans = +input1.value * +input2.value;
+                answerspan.innerText = input1.value + ' * ' + input2.value + ' is ' + ans;
+            }
+            if (operator.value === 'divide') {
+                let ans = +input1.value / +input2.value;
+                answerspan.innerText = input1.value + ' / ' + input2.value + ' is ' + ans;
+            }
+        }
+
+        submitbtn.addEventListener('click', calculate)
+
+        operator.addEventListener('change', calculate);
+
+
+
+    </script>
+</body>
+
+</html>
