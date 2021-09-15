@@ -1,0 +1,160 @@
+body{
+    overflow: scroll;
+    background-color:white;
+}
+
+.cal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:initial;
+    height: 40px;
+    padding: 0px 16px;
+    margin-bottom: -26px;
+    
+  }
+  h2{
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: -6px;
+    padding: 0px 16px;
+    margin-left: 40px;
+    font-family: cursive;
+  }
+  h3{
+    padding: 0px 16px;
+    color: grey;
+    margin-left: 40px;
+    font-family: cursive;
+    
+  }
+  h1{
+    margin-left: 50px;
+    font-family:cursive;
+  }
+  hr{
+    margin-left: 40px;
+  }
+  .mydiv0{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+  .mydiv1{
+      background-color: darkcyan;
+      padding: 30px;
+      margin-left: 40px;
+      margin-right: 10px;
+      margin-bottom: -10px;
+      height: 1px;
+      
+  }
+  .mydiv2{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+}
+.mydiv3{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+}
+.mydiv4{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+}
+.mydiv5{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+}
+.mydiv6{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+    
+}
+.mydiv7{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;
+    
+}
+.mydiv8{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    height: 1px;       
+}
+.mydiv9{
+    background-color: darkcyan;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+    
+
+p{
+    margin-bottom: -15px;
+    margin-left: 25px;
+}
+
+.meet1{
+    display: inline-block;
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    line-height: 1px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.hr1{
+    margin-left: 1px;
+}
+
+.meet2{
+    display: inline-block;
+    background-color:lightgray;
+    padding:30px;
+    padding-right: 1px;
+    width: 100%;
+    height: 20px;
+    line-height: 1px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -10px;    
+}

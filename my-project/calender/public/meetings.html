@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calendar</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/meetings.css">
+        
+
+        
+    </head>
+    <body>
+        <nav>
+            <div class="topnav">
+                <a href="calender.html">Calendar</a>
+                <a class="active" href="meetings.html">Meetings</a>
+                <a href="teams.html">Teams</a>
+                <a class="log" href="index.html">Logout</a> 
+                <p>Hello <span style="color:burlywood">abc@gmail.com</span> </p>
+              </div>
+        </nav>
+        <div class="container">     
+            <h1 class="hmee">Meetings</h1>
+            <hr>
+            <div>
+                <button class="filter active" >Filter/search Meetings</button>
+                <a href="addmeeting.html"> <button class="add">Add a Meeting</button></a>
+                <hr class ="line">
+            </div>
+            <div class="search">
+                <h1 class="head1">Search for Meetings</h1>
+                <hr>
+                <form>
+                    <label for="Meeting">Date</label><br>
+                    <select id="Meeting">
+                        <option value="all">ALL</option>
+                        <option value="past">Past</option>
+                        <option value="today">Today</option>
+                        <option value="upcoming">Upcoming</option>
+                    </select><br>
+                    <label for="searchfor">Search For</label>
+                    <input type="text" placeholder="Search using keyword that describes Meeting" id="searchfor">                    
+                </form>
+                <button onclick="openResult()">Search</button>
+            </div>
+            <div id="result">
+                <h1>Meetings Matching Search Criteria</h1>
+                <hr>
+            
+                <div class="M1">
+                    <h2>21 September 2020: <span>6:00 - 7:00</span> </h2> 
+                    <h3>Project kickoff</h3>
+                    <button> Excuse Yourself</button>
+                    <hr>
+                    <h4 style="font-weight:bolder;">Attendees: <span>mark@example.com, zurick@example.com</span></h4>
+                    <select id="attendees">
+                        <option value="select member">Select Member</option>
+                        <option value="mem1"> john@example.com</option>
+                        <option value="mem2">jane@example.com</option>
+                        <option value="mem3">mark@example.com</option>
+                    </select>
+                    <button id="b1">ADD</button>   
+                </div>
+                <div class="M2">
+                    <h2>21 September 2020: <span>6:00 - 7:00</span> </h2> 
+                    <h3>AWS Architecture</h3>
+                    <button> Excuse Yourself</button>
+                    <hr>
+                    <h4 style="font-weight:bolder;">Attendees: <span>mark@example.com, zurick@example.com</span></h4>
+                    <select id="attendees">
+                        <option value="select member">Select Member</option>
+                        <option value="mem1"> john@example.com</option>
+                        <option value="mem2">jane@example.com</option>
+                        <option value="mem3">mark@example.com</option>
+                    </select>
+                    <button id="b1">ADD</button>   
+                </div>
+            </div>    
+        </div>  
+        <script>
+            function openResult() {
+                var res = document.getElementById("result");
+                    res.style.display = "block";
+            }
+        </script>   
+    
+    </body>
+</html>

@@ -1,0 +1,165 @@
+h1{
+    margin-left: 50px;
+}
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-container > div{
+    height: 300px;
+    width: 300px;
+    border-color: black;
+    border-style:dashed;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.team1 h3{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.team1 h5{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.team1 p{
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.team1 button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color:red;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+#b1{
+    padding: 5px 10px;
+    background-color: darkcyan;
+}
+.team1 h4,.team2 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.team1 h4 span{
+    font-weight: lighter;
+}
+.team1 hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#members {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.team2{
+    height: 300px;
+    width: 300px;
+    border-color: black;
+    border-style:dashed;
+    margin-left: 50px;
+}
+.team2{
+    float: left;
+}
+.team2 h3{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.team2 h5{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.team2 p{
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.team2 button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color:red;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+#b2{
+    padding: 5px 10px;
+    background-color: darkcyan;
+    
+}
+
+.team2 h4 span{
+    font-weight: lighter;
+}
+.team2 hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.create{
+    height: 300px;
+    width: 300px;
+    border-color: black;
+    border-style:dashed;
+    margin-left: 50px;
+}
+.btn{
+    size: 9px;
+
+}
+.fas{
+    
+    margin-top: 110px;
+    margin-left: 120px;
+    font-size: 5rem;
+    color: black;
+}
+#form1{
+    display: none;
+    margin: 0;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(2, 2, 80);
+}
+.create b{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.create input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    
+
+}
+.create button{
+    padding: 10px 8px;
+    background-color: darkcyan;
+    border: black;
+    border-radius: 3px;
+    margin-left: 100px;
+    color: white;
+    
+}
+.create button:hover{
+    background-color: darkred;
+}
+
+@media screen and (min-width:800px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calendar</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/teams.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/4b96c86038.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <nav>
+            <div class="topnav">
+                <a  href="calender.html">Calendar</a>
+                <a href="meetings.html">Meetings</a>
+                <a class="active" href="teams.html">Teams</a>
+                <a class="log" href="index.html">Logout</a> 
+                <p>Hello <span style="color:burlywood">abc@gmail.com</span> </p>
+            </div>   
+        </nav>
+            <h1>Teams</h1><hr>
+            <p style="color: gray; margin-left: 40px; font-size: large;">View and edit teams you are part of</p>
+            <div class="flex-container">
+                <div class="team1">
+                    <h3>Customer Acquisition Campaign</h3>
+                    <h5>@Customer-aquisition</h5>
+                    <p >Team to come up with strategies to win over customer by end of FY-21</p>
+                    <button> Excuse Yourself</button>
+                    <hr>
+                    <h4 style="font-weight:bolder;">Members: <span>john@example.com, joe@example.com</span></h4>
+                    <select id="members">
+                        <option value="select member">Select Member</option>
+                        <option value="mem1"> john@example.com</option>
+                        <option value="mem2">jane@example.com</option>
+                        <option value="mem3">mark@example.com</option>
+                    </select>
+                    <button id="b1">ADD</button> 
+                </div>
+            
+                <div class="team2">
+                    <h3>MERN Stack Training</h3>
+                    <h5>@mern-stack-training</h5>
+                    <p >Team to come up with strategies to win over customer by end of FY-21</p>
+                    <button> Excuse Yourself</button>
+                    <hr>
+                    <h4 style="font-weight:bolder;">Members: <span>john@example.com, joe@example.com</span></h4>
+                    <select id="members">
+                        <option value="select member">Select Member</option>
+                        <option value="mem1"> john@example.com</option>
+                        <option value="mem2">jane@example.com</option>
+                        <option value="mem3">mark@example.com</option>
+                    </select>
+                    <button id="b1">ADD</button> 
+                </div>
+                <div class="create"><i class="fas fa-plus" onclick="openForm()" id="myicon"></i>
+                  <form id="form1">
+                    <br><br>
+                    <b>Meeting Name:</b><br> <input type="text" name="meetname"><br>
+                    <b>Team Name: </b><br><input type="text" name="teamName"><br>
+                    <b>Members Name:</b><br><input type="text" name="membersname"><br>
+                     <button type="submit" id="submit">Submit</button>
+                  </form>
+                </div>
+            </div>
+          <script>
+            function openForm() {
+              document.getElementById("form1").style.display = "block";
+              document.getElementById("myicon").style.display = "none";
+            }
+          </script>
+            
+    </body>
+</html>

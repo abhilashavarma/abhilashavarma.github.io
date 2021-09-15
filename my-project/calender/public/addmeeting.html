@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Calender</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/addmeeting.css">
+        
+
+        
+    </head>
+    <body>
+        <nav>
+            <div class="topnav">
+                <a href="calender.html">Calender</a>
+                <a class="active" href="meetings.html">Meetings</a>
+                <a href="teams.html">Teams</a>
+                <a class="log" href="index.html">Logout</a> 
+                <p>Hello <span style="color:burlywood">abc@gmail.com</span> </p>
+              </div>
+        </nav>  
+        <div class="container">   
+            <h1 style="margin-top: -100px;">Meetings</h1>
+            <hr>
+            <div>
+                <a href="meetings.html"><button class="filter" >Filter/search Meetings</button></a>
+                 <button class="add active">Add a Meeting</button>
+                <hr class ="line">
+            </div>
+            <div class="addmeet">
+                <h1 class="head1">Add a New Meeting</h1>
+                <hr>
+                <form action="">
+                    <label for="Meeting"   id="dt">Date</label><br>
+                    <input type="date" class="date" id="dt" required><br>
+                    <label for="searchfor" id="appt">Start Time</label><br>
+                    <input type="time" class="time" id="appt"  min="09:00" max="18:00" required><br>
+                    <label for="searchfor" id="appt">End Time</label><br>
+                    <input type="time" class="time" id="appt"  min="09:00" max="18:00" required><br>
+                    <label>Description</label><br>
+                    <input type="text" class="des"><br>
+                    <label>Email IDs of attendees or teams short</label><br>
+                    <input type="email" placeholder="add@example.com, abc@xyz.com" class="mail"><br>
+                    <p style="color: whitesmoke;">Seperate email ids/team short names by commas,team short names always start with @</p>
+                    <button type="submit">Add Meeting</button>
+                    
+                </form>
+            </div> 
+        </div>       
+    </body>
+</html>

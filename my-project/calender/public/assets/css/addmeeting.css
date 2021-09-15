@@ -1,0 +1,126 @@
+body{
+    background-color:white;
+    
+}
+.container {
+    margin: 120px 2em;
+  }
+h1{
+    margin-left: 50px;
+    font-family:cursive;
+  }
+  hr{
+    margin-left: 40px;
+  }
+.filter{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 20px; 
+    background-color:initial;
+}
+.filter{
+    color:blue;
+    border-color: gray;
+    font-size: medium; 
+}
+.active{
+    color: black;
+    background-color:honeydew;
+}
+.filter:hover{
+    background-color:ghostwhite;
+}
+.add{
+    margin-left: 3px;
+    margin-top: 15px;
+    border-bottom: none;
+    padding: 20px;
+
+    font-size: medium; 
+    background-color:initial; 
+}
+
+
+.add:hover{
+    background-color:ghostwhite;
+
+}
+.line{
+    margin-left: 40px;
+    margin-top: -10px;
+    line-height: initial;
+}
+.addmeet{
+    padding: 100px ;
+    background-color: darkcyan;
+    margin-left: 50px;
+    margin-top: 3px;
+    margin-right: 20px;
+    min-height: 500px;    
+}
+.head1{
+    color:ghostwhite;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.addmeet label{
+    margin-left: -30px;
+    font-weight: lighter;
+}
+.addmeet hr{
+    margin-left: -30px;
+}
+.addmeet select{
+    margin-left: -30px;
+    width: 1400px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.addmeet label{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+.addmeet input.date{
+    padding: 10px;
+    width: 100%;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+.addmeet input.time{
+    margin-top: 10px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+.addmeet input.des{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.addmeet input.mail{
+    margin-bottom: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.addmeet button{
+    padding: 10px 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    font-size: large;
+    font-family: serif;
+    border-radius: 10px;
+    background-color:darkolivegreen;
+    color:white;
+}
+

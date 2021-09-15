@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calendar</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+        
+    </head>
+     <body>
+        <div class="container" id="main">
+            <div class="sign-up">
+                <form >
+                    <h1>Create Account</h1>
+                    <input type="text" name="txt"  placeholder="Enter your name" required>
+                    <input type="email" name="email"  placeholder="Email" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <input type="password" name="confirm" placeholder="Confirm Password" required>
+                    <a href="#"> <button>Sign Up</button> </a>
+                 </form>
+            </div>
+        
+            <div class="sign-in">
+                <form  action="calender.html">
+                    <h1>Sign-In</h1>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <a href="#">Forget your Password</a>
+                
+                        <button type="submit">
+                            Sign IN
+                        </button>
+                </form>
+            </div>
+        
+            <div class="overlay-conatiner">
+                <div class="overlay">
+                    <div class="overlay-left">
+                        <h1>Welcome Back</h1>
+                        <p>To Maintain your Meetings please login</p>
+                        <button id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-right">
+                        <h1>Hello</h1>
+                        <h4>Didn't Have Account?</h4>
+                        <p>Enter your details and Maintain your Meetings</p>
+                        <button id="signUp">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const signUpButton = document.getElementById('signUp');
+            const signInButton = document.getElementById('signIn');
+            const main = document.getElementById('main');
+
+            signUpButton.addEventListener('click', () => {
+	        main.classList.add("right-panel-active");
+            });
+
+            signInButton.addEventListener('click', () => {
+	        main.classList.remove("right-panel-active");
+            });
+        </script>
+    </body>
+</html>

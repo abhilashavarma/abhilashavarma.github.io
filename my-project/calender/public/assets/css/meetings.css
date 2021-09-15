@@ -1,0 +1,188 @@
+body{
+    background-color:white;
+    
+}
+.container {
+    margin: 120px 2em;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+  }
+.hmee{
+    margin-top: -100px;
+}
+h1{
+    margin-left: 50px;
+    font-family:cursive;
+   
+  }
+hr{
+    margin-left: 40px;
+  }
+.filter{
+    margin-left: 50px;
+    margin-top: 15px;
+    border-bottom: none;
+    padding: 20px; 
+}
+.filter{
+    color: blue;
+    border-color: gray;
+    font-size: medium; 
+    background-color:initial;
+}
+.active{
+    color:black;
+    background-color:white;
+}
+.filter:hover{
+    background-color:ghostwhite;
+}
+.add{
+    margin-left: 5px;
+    margin-top: 15px;
+    border: none;
+    padding: 20px;
+    color:blue;
+    font-size: medium; 
+    background-color: white;
+}
+
+.add:hover{
+    background-color:ghostwhite;
+}
+
+
+.line{
+    margin-top: 0px;
+    margin-left: 250px ;
+}
+.search{
+    padding: 50px;
+    background-color: darkcyan;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 3px;
+    margin-right: 20px;
+    
+}
+.head1{
+    color:ghostwhite;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.search label{
+    margin-left: -30px;
+    font-weight: lighter;
+}
+.search hr{
+    margin-left: -30px;
+}
+.search select{
+    margin-left: -30px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.search label{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+.search input{
+    margin-left: -30px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.search button{
+    padding: 10px 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    font-size: large;
+    font-family: serif;
+    border-radius: 10px;
+    background-color:darkolivegreen;
+}
+.search button:hover{
+    background-color: lightgreen;
+}
+#result{
+    display: none;
+}
+.M1 {
+    padding: 15px 25px;
+    border: black;
+    border-style: double;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.M1 h2 span{
+    font-weight:100;
+    color: gray;
+}
+.M1 h3{
+    font-weight:lighter;
+    margin-top: -15px;
+}
+.M1 h4 span{
+    font-weight: lighter;
+}
+.M1 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:red;
+    margin-top: -10px;
+}
+.M1 button:hover{
+    background-color: darkred;
+}
+#b1{
+    padding: 5px 10px;
+    background-color: darkcyan;
+}
+.M1 hr{
+    margin-left: 10px;
+}
+#attendees {
+    padding: 10px;
+    border-radius: 5px;
+}
+.M1 h4,.M2 h4{
+    margin-top: -5px;
+}
+.M2 {
+    padding: 20px 30px;
+    border: black;
+    border-style: double;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.M2 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:red;
+    margin-top: -10px;
+}
+.M2 button:hover{
+    background-color: darkred;
+}
+.M2 h2 span{
+    font-weight:100;
+    color: gray;
+}
+.M2 h3{
+    font-weight:lighter;
+    margin-top: -15px;
+}
+.M2 hr{
+    margin-left: 10px;
+}
+.M2 h4 span{
+    font-weight: lighter;
+}
